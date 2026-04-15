@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: hive-onboarding-agent
+    runtime: node
+    buildCommand: npm install
+    startCommand: node src/server.js
+    plan: free
+    envVars: []
